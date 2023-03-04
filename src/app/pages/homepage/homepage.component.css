@@ -1,0 +1,12 @@
+.background-container 
+{
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-image: url('../../../assets/image/homeimg.jpeg'); 
+    background-repeat: no-repeat;
+    margin-top: -80px;
+}
+
+
+ 

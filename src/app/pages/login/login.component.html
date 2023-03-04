@@ -1,0 +1,10 @@
+<div class="container">
+    <h2 id="formhd">LOGIN</h2>
+    <form action="">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" [(ngModel)]="userName" placeholder="Type your name" name="uname">
+    <label for="psw"><b>Password</b></label>
+    <input  type="password" [(ngModel)]="userPassword" placeholder="Type your password" name="psw">
+    <input type="submit" (click)="signIn()"  value="Submit" >
+  </form>
+  </div>

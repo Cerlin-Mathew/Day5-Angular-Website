@@ -1,0 +1,40 @@
+<section class="get-in-touch">
+    <h1 class="title">Sign-Up</h1>
+    <form class="contact-form row">
+       <div class="form-field col-lg-6">
+         <label class="label" for="name">First Name</label>
+          <input id="name" class="input-text js-input" type="text" required>
+          
+       </div>
+       <div class="form-field col-lg-6">
+         <label class="label" for="lname">Last Name</label>
+          <input [(ngModel)]="userName" id="name" class="input-text js-input" type="text" name="username" required>
+          
+       </div>
+       <div class="form-field col-lg-6 ">
+         <label class="label" for="email">E-mail id</label>
+          <input  id="email"  [(ngModel)]="userEmail" class="input-text js-input" type="email"  name="email" required>
+          
+       </div>
+       
+        <div class="form-field col-lg-6 ">
+         <label class="label" for="phone">Contact Number</label>
+          <input  id="phone" [(ngModel)]="userContact" class="input-text js-input" type="text" name="Contact" required>
+          
+       </div>
+       <div class="form-field col-lg-12">
+         <label class="label" for="message">Password</label>
+          <input  id="message" [(ngModel)]="userPassword" class="input-text js-input" type="text" name="password" required>
+          
+       </div>
+       <div class="form-field col-lg-12">
+         <label class="label" for="message">Confirm-Password</label>
+        <input id="message" class="input-text js-input" type="text" name="password" required>
+        
+     </div>
+     
+       <div class="form-field col-lg-12">
+          <input class="submit-btn" type="submit" value="Submit" (click)="signIn()">
+       </div>
+    </form>
+ </section>

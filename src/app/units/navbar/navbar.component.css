@@ -1,0 +1,17 @@
+.container-fluid{
+  padding: 11px;
+  font-weight: bold;
+}
+
+a:hover { background: black; }
+
+
+.navicon {
+  padding: 5px;
+  cursor: pointer;
+}
+
+
+
+
+
